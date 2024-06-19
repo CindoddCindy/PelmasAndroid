@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PelmasAddData">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="Input Data Pasien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="TTL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_ttl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="No Telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_no_telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Berat Badan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_bb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Tekanan Darah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_tekanan_darah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Gula Darah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_gula_darah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Asam Urat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_asam_urat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textSize="15dp"
+                android:textColor="#454343"
+                android:text="Kolesterol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_add_kolesterol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+
+
+            <Button
+                android:id="@+id/btn_save_data"
+                android:text="Save Data"
+                android:textColor="#F3EFEF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pelmas_btn"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
